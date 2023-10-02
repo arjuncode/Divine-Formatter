@@ -118,7 +118,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
 
   .vvp-header-links-container a,
   .a-tab-heading a {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   /* emoji list: https://html-css-js.com/html/character-codes/ */
