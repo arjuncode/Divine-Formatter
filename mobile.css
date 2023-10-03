@@ -362,6 +362,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
     color: transparent;
     background-color: #303333;
     border-color: white !important;
+    border: none !important;
   }
 
   #vvp-items-button--recommended a::before,
