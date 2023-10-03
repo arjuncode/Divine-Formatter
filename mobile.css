@@ -266,6 +266,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
 
   .a-button-primary .a-button-text {
     color: #303333 !important;
+    font-size: 12px;
   }
 
   .a-button-base {
