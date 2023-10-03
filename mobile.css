@@ -352,6 +352,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
   #vvp-items-button--all a,
   #vvp-items-button--seller a {
     color: transparent;
+    background-color: #303333;
   }
 
   #vvp-items-button--recommended a::before,
@@ -361,7 +362,6 @@ Changing the item-title-height variable should allow the rest of the grid to app
     position: absolute;
     font-size: 12px;
     font-weight: bold;
-    background-color: #303333;
   }
 
   #vvp-items-button--recommended a::before {
