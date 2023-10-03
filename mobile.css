@@ -258,7 +258,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
   }
 
   .a-button-primary {
-    border-radius: 0 !important;
+    border-radius: 10 !important;
     background: #d1d1d1 !important;
     border-color: #d1d1d1 !important;
     transition: 0.2s !important;
@@ -361,6 +361,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
     position: absolute;
     font-size: 12px;
     font-weight: bold;
+    background-color: #303333;
   }
 
   #vvp-items-button--recommended a::before {
