@@ -383,6 +383,15 @@ Changing the item-title-height variable should allow the rest of the grid to app
     content: "AI" !important;
   }
 
+  .a-button.a-button-selected.a-button-toggle{
+    background-color: #017185;
+    border: none !important;
+  }
+
+  .a-button.a-button-normal.a-button-toggle {
+    border: none !important;
+  }
+
   /* PRODUCT MODAL */
   .a-popover.a-popover-modal.a-declarative.a-popover-modal-fixed-height {
     height: calc(100% - 100px) !important;
