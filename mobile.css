@@ -349,12 +349,16 @@ Changing the item-title-height variable should allow the rest of the grid to app
   }
 
   /* RFY, AFA, AI */
+
+  .vvp-items-button-container {
+    border: none !important;
+  }
+
   #vvp-items-button--recommended a,
   #vvp-items-button--all a,
   #vvp-items-button--seller a {
     color: transparent;
     background-color: #303333;
-    transition: 0.2s !important;
     border: none !important;
   }
 
