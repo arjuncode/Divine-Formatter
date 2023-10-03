@@ -352,6 +352,8 @@ Changing the item-title-height variable should allow the rest of the grid to app
 
   .vvp-items-button-container {
     border: none !important;
+    border-color: white !important;
+    background-color: white;
   }
 
   #vvp-items-button--recommended a,
@@ -359,7 +361,7 @@ Changing the item-title-height variable should allow the rest of the grid to app
   #vvp-items-button--seller a {
     color: transparent;
     background-color: #303333;
-    border: none !important;
+    border-color: white !important;
   }
 
   #vvp-items-button--recommended a::before,
@@ -384,13 +386,15 @@ Changing the item-title-height variable should allow the rest of the grid to app
   }
 
   .a-button.a-button-selected.a-button-toggle{
-    background-color: #017185;
-    border: none !important;
+    border-color: white !important;
+    background-color: #017185 !important;
   }
 
   .a-button.a-button-normal.a-button-toggle {
-    border: none !important;
+    border-color: white !important;
   }
+
+
 
   /* PRODUCT MODAL */
   .a-popover.a-popover-modal.a-declarative.a-popover-modal-fixed-height {
