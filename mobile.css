@@ -354,12 +354,14 @@ Changing the item-title-height variable should allow the rest of the grid to app
   #vvp-items-button--seller a {
     color: transparent;
     background-color: #303333;
+    transition: 0.2s !important;
+    border: none !important;
   }
 
   #vvp-items-button--recommended a::before,
   #vvp-items-button--all a::before,
   #vvp-items-button--seller a::before {
-    color: black !important;
+    color: white !important;
     position: absolute;
     font-size: 12px;
     font-weight: bold;
