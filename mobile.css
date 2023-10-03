@@ -385,14 +385,32 @@ Changing the item-title-height variable should allow the rest of the grid to app
     content: "AI" !important;
   }
 
-  .a-button.a-button-selected.a-button-toggle{
+/* After test */
+
+#vvp-items-button--recommended a::after,
+#vvp-items-button--all a::after,
+#vvp-items-button--seller a::after {
+  background-color: #017185;
+}
+
+  /* #vvp-items-button--recommended .a-button.a-button-selected a::after{
+    border-color: white !important;
+    background-color: #017185 !important;
+  }
+
+  #vvp-items-button--all .a-button.a-button-selected{
+    border-color: white !important;
+    background-color: #017185 !important;
+  }
+
+  #vvp-items-button--seller .a-button.a-button-selected{
     border-color: white !important;
     background-color: #017185 !important;
   }
 
   .a-button.a-button-normal.a-button-toggle {
     border-color: white !important;
-  }
+  } */
 
 
 
