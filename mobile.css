@@ -259,13 +259,13 @@ Changing the item-title-height variable should allow the rest of the grid to app
 
   .a-button-primary {
     border-radius: 10 !important;
-    background: #d1d1d1 !important;
-    border-color: #d1d1d1 !important;
+    background: #017185 !important;
+    border-color: #017185 !important;
     transition: 0.2s !important;
   }
 
   .a-button-primary .a-button-text {
-    color: #303333 !important;
+    color: white !important;
     font-size: 12px;
   }
 
